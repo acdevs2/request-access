@@ -52,7 +52,7 @@ const credentials = {
         "client_secret": process.env.CLIENT_SECRET
     }
 }
-const redirectUri = 'http://localhost:3000/callback'; // Redirect URI for OAuth 2.0
+const redirectUri = 'https://request-access.cyclic.cloud/callback'; // Redirect URI for OAuth 2.0
 
 // Create a new OAuth2 client.
 const oAuth2Client = new google.auth.OAuth2(
